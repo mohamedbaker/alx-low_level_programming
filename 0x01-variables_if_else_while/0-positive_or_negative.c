@@ -4,10 +4,8 @@
 
 /**
  * main - Entery Point for project
- *
  * Description : print postive and negtive number
- *
- * return:0 (success)
+ * Return: 0 (success)
 */
 
 int main(void)
