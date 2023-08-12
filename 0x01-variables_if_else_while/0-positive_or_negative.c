@@ -7,7 +7,7 @@
  *
  * Description : print postive and negtive number
  *
- * return:0 for success
+ * return:0 (success)
 */
 
 int main(void)
