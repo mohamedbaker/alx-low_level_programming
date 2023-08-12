@@ -3,12 +3,12 @@
 #include <stdio.h>
 
 /**
- * main -Entery Point for project
+ * main - Entery Point for project
  *
- * Description: print postive and negtive number
+ * Description : print postive and negtive number
  *
  * return:0 for success
- * */
+*/
 
 int main(void)
 {
