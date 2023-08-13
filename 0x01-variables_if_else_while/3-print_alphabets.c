@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-* main- Entery Point
-* Description: prints Alphapits small and CAPS
-* Return; 0 (successfull)
+*main - Entery Point
+*Description: prints Alphapits small and CAPS
+*Return: 0 (successfull)
 */
 
 int main(void)
