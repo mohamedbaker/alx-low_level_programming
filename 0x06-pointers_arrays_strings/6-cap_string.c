@@ -1,4 +1,16 @@
 #include "main.h"
+#include <stdio.h>
+
+/**
+* isLower - check if is lower
+* @c: sring
+* Return: 1 if true
+*/
+
+int isLower(char c)
+{
+	return (c >= 97 && c <= 122);
+}
 
 /**
  * isDelim - found Delim
