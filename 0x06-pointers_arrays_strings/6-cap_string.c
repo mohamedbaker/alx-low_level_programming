@@ -45,7 +45,7 @@ char *cap_string(char *s)
 	{
 		if (isDelim(*s))
 			foundDelim = 1;
-		else if (isLower(*s) && foundDlim)
+		else if (isLower(*s) && foundDelim)
 		{
 			*s -= 32;
 			foundDelim = 0;
