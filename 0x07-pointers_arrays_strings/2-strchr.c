@@ -3,7 +3,7 @@
 /**
  * _strchr - find char
  * @s: string
- * @c: character to look for 
+ * @c: character to look for
  * Return: char
  */
 char *_strchr(char *s, char c)
