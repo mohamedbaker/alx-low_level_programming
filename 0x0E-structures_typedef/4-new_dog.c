@@ -29,7 +29,7 @@ char *_strcopy(char *dest, char *src)
 {
 	int counter;
 
-	for (counter = 0; src[counter] != '\0'; counter++)
+	for (counter = 0; src[counter]; counter++)
 
 		dest[counter] = src[counter];
 
