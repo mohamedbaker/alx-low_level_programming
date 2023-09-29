@@ -9,7 +9,7 @@
 
 int get_bit(unsigned long int n, unsigned int index)
 {
-	unsigned int shift = n >> index;
+	unsigned long int shift = n >> index;
 
 	return (shift & 1);
 }
