@@ -29,5 +29,5 @@ int fd, w, len = 0;
 
 	close(fd);
 
-	return (w == len ? 1 : -1);
+	return (1);
 }
