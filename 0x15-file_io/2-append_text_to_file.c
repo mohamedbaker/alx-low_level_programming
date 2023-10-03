@@ -14,14 +14,12 @@ int fd, w, len = 0;
 	if (!filename)
 		return (-1);
 
-	if (!text_content)
+	if (text_content)
 	{
-		text_content = "";
-		return (0);
-	}
 	while (*text_content++)
 		len++;
 	fd = open(filename, O_WRONLY | O_APPEND);
+	}
 
 	if (len)
 		w = write(fd, text_content, len);
