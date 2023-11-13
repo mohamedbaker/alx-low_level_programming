@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 /**
-* free_dlistint: function that frees all nodes in a doubly linkedlist
+* free_dlistint - function that frees all nodes in a doubly linkedlist
 * @head: struct head node.
 * Return: void
 */
